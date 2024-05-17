@@ -76,7 +76,6 @@ class CallbackTest {
         WebElement submitButton = driver.findElement(By.cssSelector("[data-test-id=submit]"));
         submitButton.click();
 
-        // Check if success message is displayed
         String successMessage = driver.findElement(By.className("alert-success")).getText();
         assertEquals("Ваша заявка успешно отправлена!", successMessage.trim());
     }
