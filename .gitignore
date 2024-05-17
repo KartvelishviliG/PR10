@@ -1,0 +1,4 @@
+# Project exclude paths
+/web/selenide/.gradle/
+/web/selenide/build/
+/web/selenide/build/classes/java/test/
