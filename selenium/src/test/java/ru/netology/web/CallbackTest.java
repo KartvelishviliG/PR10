@@ -73,7 +73,6 @@ class CallbackTest {
         WebElement agreementCheckbox = driver.findElement(By.cssSelector("[data-test-id=agreement]"));
         agreementCheckbox.click();
 
-        // Submit the form
         WebElement submitButton = driver.findElement(By.cssSelector("[data-test-id=submit]"));
         submitButton.click();
 
